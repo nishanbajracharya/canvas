@@ -1,5 +1,5 @@
 {
-  "name": "canvas",
+  "name": "canvas-cli",
   "version": "1.0.0",
   "description": "HTML Canvas project bootstrapper.",
   "main": "index.js",
@@ -32,7 +32,6 @@
     "canvas": "./build/canvas.js"
   },
   "devDependencies": {
-    "copy-webpack-plugin": "^5.0.3",
     "del-cli": "^2.0.0"
   }
 }
