@@ -1,6 +1,6 @@
 {
   "name": "canvas-cli",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "HTML Canvas project bootstrapper.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "start": "node src/index.js",
     "template": "node src/template.js",
     "prebuild": "npm run template && del build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0"
   },
   "repository": {
     "type": "git",
