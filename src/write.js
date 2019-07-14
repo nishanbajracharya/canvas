@@ -1,7 +1,7 @@
 const fs = require('fs');
 const chalk = require('chalk');
 
-const templates = require('./read');
+const templates = require('./template.json');
 
 function write(path, onSuccess, onError) {
   if (fs.existsSync(path)) {

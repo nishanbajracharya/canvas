@@ -24,4 +24,5 @@ function readTemplate() {
   };
 }
 
-module.exports = readTemplate();
+let data = JSON.stringify(readTemplate());
+fs.writeFileSync('src/template.json', data);
