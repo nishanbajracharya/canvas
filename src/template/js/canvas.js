@@ -42,16 +42,19 @@ function run() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   // Fill canvas with black
+  ctx.beginPath();
   ctx.rect(0, 0, canvas.width, canvas.height);
   ctx.fillStyle = '#000';
   ctx.fill();
 
   // Sample Text
+  ctx.beginPath();
   ctx.rect(canvas.width / 2 - 200, canvas.height / 2 - 50, 400, 100);
   ctx.lineWidth = 2;
   ctx.strokeStyle = '#fff';
   ctx.stroke();
 
+  ctx.beginPath();
   ctx.font = '16px Arial';
   ctx.fillStyle = '#fff';
   ctx.textAlign = "center";
