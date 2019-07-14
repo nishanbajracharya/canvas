@@ -1,6 +1,6 @@
 {
   "name": "canvas-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "HTML Canvas project bootstrapper.",
   "main": "index.js",
   "scripts": {
