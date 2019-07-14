@@ -43,7 +43,19 @@ function run() {
 
   // Fill canvas with black
   ctx.rect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = '#000';
   ctx.fill();
+
+  // Sample Text
+  ctx.rect(canvas.width / 2 - 200, canvas.height / 2 - 50, 400, 100);
+  ctx.lineWidth = 2;
+  ctx.strokeStyle = '#fff';
+  ctx.stroke();
+
+  ctx.font = '16px Arial';
+  ctx.fillStyle = '#fff';
+  ctx.textAlign = "center";
+  ctx.fillText('Open "js/canvas.js" in a text editor to get started.', canvas.width / 2, canvas.height / 2 + 8);
 
   // Add rendering code here
 
